@@ -1,0 +1,23 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "cypress run --browser chrome --no-exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grandemayta/cypress-e2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grandemayta/cypress-e2e/issues"
+  },
+  "homepage": "https://github.com/grandemayta/cypress-e2e#readme",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "testcafe": "^1.8.3"
+  }
+}
